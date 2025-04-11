@@ -2,10 +2,10 @@
 
 ![Netflix Logo](https://github.com/sharathjain01/NETFLIX_SQL_PROJECT/blob/main/logo.png)
 
-Overview
+OVERVIEW
 This project involves a comprehensive analysis of Netflix's movies and TV shows data using SQL. The goal is to extract valuable insights and answer various business questions based on the dataset. The following README provides a detailed account of the project's objectives, business problems,findings, and conclusions.
 
-Objectives
+OBJECTIVE
 Analyze the distribution of content types (movies vs TV shows).
 Identify the most common ratings for movies and TV shows.
 List and analyze content based on release years, countries, and durations.
@@ -14,7 +14,7 @@ Dataset
 The data for this project is sourced from the Kaggle dataset:
 
 ```
-Schema
+SCHEMA
 DROP TABLE IF EXISTS netflix;
 CREATE TABLE netflix
 (
@@ -31,7 +31,7 @@ CREATE TABLE netflix
     listed_in    VARCHAR(250),
     description  VARCHAR(550)
 );
-Business Problems 
+BUSINESS PROBLEMS 
 1. Count the Number of Movies vs TV Shows
 2. List All Movies Released in a Specific Year (e.g., 2020)
 3. Find the Top 5 Countries with the Most Content on Netflix
@@ -47,7 +47,7 @@ Business Problems
 13. Categorize Content Based on the Presence of 'Kill' and 'Violence' Keywords
 14. find the films which was released in 2020
 
-Findings and Conclusion
+FINDINGS AND SOLUTIONS
 Content Distribution: The dataset contains a diverse range of movies and TV shows with varying ratings and genres.
 Common Ratings: Insights into the most common ratings provide an understanding of the content's target audience.
 Geographical Insights: The top countries and the average content releases by India highlight regional content distribution.
