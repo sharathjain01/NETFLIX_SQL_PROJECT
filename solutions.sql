@@ -17,7 +17,7 @@ create table Netflix
 select * from Netflix;
 
 
--- 12 Business problems
+-- 14 Business problems and solutions
 
 
  1.count the number of movies vs TV shows
