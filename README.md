@@ -2,9 +2,6 @@
 
 ![Netflix Logo](https://github.com/sharathjain01/NETFLIX_SQL_PROJECT/blob/main/logo.png)
 
-##Objective
-
-
 Overview
 This project involves a comprehensive analysis of Netflix's movies and TV shows data using SQL. The goal is to extract valuable insights and answer various business questions based on the dataset. The following README provides a detailed account of the project's objectives, business problems,findings, and conclusions.
 
@@ -16,7 +13,6 @@ Explore and categorize content based on specific criteria and keywords.
 Dataset
 The data for this project is sourced from the Kaggle dataset:
 
-Dataset Link: Movies Dataset
 ```Schema
 DROP TABLE IF EXISTS netflix;
 CREATE TABLE netflix
